@@ -1,0 +1,90 @@
+
+
+
+html, body{
+  height: 100%;
+  width: 100%;
+}
+
+
+.wrapper
+{
+  min-height:100%;
+  background:#eee;
+}
+.hero{
+  background: #89aac3;
+  padding: 110px 0px;
+  background-image: url(https://www.footasylum.com/images/products/productlistings/4026183.jpg);
+  background-repeat: no-repeat;
+  background-size: 300px;
+  z-index: 2000;
+}
+.hero-text{
+  font-size: 40px;
+  color: #040404;
+  font-weight: bold;
+  text-align: center;
+  transition: all 1s;
+  z-index: 100;
+}
+
+.footer{
+  height: 100px;
+  background: #333;
+}
+
+
+.gradient {
+    background: #4a4c4ed4;
+    position: absolute;
+    top: 10px;
+    height: 290px;
+    width: 290px;
+    background-image: linear-gradient(5deg, #9ca2a712, #cab3b300);
+    background-repeat: no-repeat;
+    z-index: inherit;
+    transform: rotate(45deg);
+}
+
+.hero p {
+    text-align: center;
+}
+
+.hero-text:hover {
+    color: #359c92;
+    transform:scale(1.1)
+}
+
+.img_wrap {
+    width: 100%;
+    display: flex;
+    margin: 10px;
+      flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.img_wrap img {
+    width: 380px;
+    height: 300px;
+    margin: 5px 10px;
+    padding: 10px 10px;
+    background: whitesmoke;
+    border: solid 1px #eee;
+    transition: all 1s
+
+}
+.img_wrap img:hover {
+    transform: scale(1.2);
+    background:#eee;
+
+}
+
+
+
+
+
+/*  media query*/
+@media (min-width: 768px) {
+
+}
